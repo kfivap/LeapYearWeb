@@ -1,0 +1,50 @@
+html, body{
+	margin: 30px;
+	padding: 0px;
+	font-family: Arial, Tahoma;
+	color: #444;
+	background-color: #F0FFFF;
+align-content: center;
+
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+}
+
+
+#year{
+	font-size: 40px;
+	padding: 20px;
+	text-align: center;
+}
+
+#tform{
+	font-size: 40px;
+	padding: 20px;
+	text-align: center;
+}
+
+
+#container {
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFF8DC;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.icon{
+	width: 16px;
+
+}
+
+.s_icon{
+	padding: 8px;
+}
