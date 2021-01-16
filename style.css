@@ -9,13 +9,13 @@ align-content: center;
 }
 
 h1{
-	font-size: 700%;
+	font-size: 120px;
 	text-align: center;
 }
 
 
 #year{
-	font-size: 600%;
+	font-size: 110px;
 	padding: 20px;
 	text-align: center;
 }
@@ -28,16 +28,14 @@ h1{
 
 
 #container {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #FFF8DC; /* Цвет фона */
+    color: black; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+	text-align: center;
 
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #FFF8DC;
-  color: black;
-  text-align: center;
-  padding: 20px;
-  font-size: 16px;
 }
 
 .icon{
@@ -47,4 +45,15 @@ h1{
 
 .s_icon{
 	padding: 8px;
+	font-size: 16px;
+}
+
+#info{
+	padding: 20px;
+	font-size: 22px;
+}
+
+#info li{
+	font-size: 18px;
+	padding: 12px;
 }
