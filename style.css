@@ -9,13 +9,13 @@ align-content: center;
 }
 
 h1{
-	font-size: 120px;
+	font-size: 90px;
 	text-align: center;
 }
 
 
 #year{
-	font-size: 110px;
+	font-size: 80px;
 	padding: 20px;
 	text-align: center;
 }
@@ -56,4 +56,11 @@ h1{
 #info li{
 	font-size: 18px;
 	padding: 12px;
+}
+
+#typeyear{
+	font-size: 30px;
+}
+#resetyear{
+	font-size: 30px;
 }
