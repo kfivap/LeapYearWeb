@@ -1,59 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Leap Year</title>
+	<title>Kachalka!!!</title>
 	<meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<h1>Симулятор Качалки</h1>
 
-<h1>Leap year checker</h1>
-<div id="year">Type year and see if it leap or not!</div>
 
-<div id='tform'>
-<form>
-<input type="number" id="typeyear" value="" />
-<input type="reset" id="resetyear">
-</form>
+
+
+
+
+
+
+
+
+
+
+
+ <table >
+   <tr>
+    <th id="th1"><div>
+<button id="squat">Click to squat!</button>
+
+<span>You did <span class='number' id="squatdone"> 0</span> squats today</span>
 </div>
 
-<div id="info">
-<h3>Как определить, является ли год високосным</h3>
-<p>Чтобы определить, является ли год високосным, выполните следующие действия:</p>
-<ol>
-<li>Если год делится на 4 без остатка, перейдите на шаг 2. В противном случае перейдите к выполнению действия 5.</li>
-<li>Если год делится на 100 без остатка, перейдите на шаг 3. В противном случае перейдите к выполнению действия 4.</li>
-<li>Если год делится на 400 без остатка, перейдите на шаг 4. В противном случае перейдите к выполнению действия 5.</li>
-<li>Год високосный (366 дней).</li>
-<li>Год не високосный год (365 дней).</li>
-</ol></div>
+
+<div id="pups">
+<button id='pushup'>Click to push up!</button>
+<span>You did <span class='number' id="pushupdone">0</span> pushups today</span>
+</div>
 
 
-<div id="container">
-	<span class='s_icon'>
-<a href="https://vk.com/kfivap">
-<img class='icon' src="https://cdn.icon-icons.com/icons2/2429/PNG/512/vk_logo_icon_147212.png"></a>
-<a href="https://vk.com/kfivap">
-vk.com/kfivap</a>
+<div>
+<button id="Run">Hold to run!</button>
+<span>You runned <span class='number' id="runned">0</span>km today</span>
+</div></th>
 
-</span >
-<span class='s_icon'>
-<a href="https://www.instagram.com/kfivap">
-<img class='icon' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/240px-Instagram_icon.png"></a>
-<a href="https://www.instagram.com/kfivap">
-instagram.com/kfivap
-</a>
 
+    <th>
+<div id="power">
+<span>You have
+<span class='number' id='powercurrent'>100</span>
+of
+<span class='number' id='powermax'>100</span>
+energy
 </span>
-
-
-  <div id="copyright">
-    That one guy who doesn`t know web techologies, but can use Google Search
-  </div>
+<div id='zeropower'></div>
 </div>
 
-<script src="script.js">
 
-</script>
+
+<div>
+<button id='sleep'>Sleep</button>
+</div>
+</th>
+
+
+
+
+
+
+    <th><div id="stats"><h3>Stats</h3>Day #
+	<span id="day">1</span>,
+	<div>Total squat <span class='number' id="totalsquat">0</span></div>
+	<div>Total push ups <span class='number' id="totalpushup">0</span></div>
+	<div>Total run <span class='number' id="totalrun">0</span> km </div>
+</div></th>
+   </tr>
+</table>
+<div id='endless'>
+  <input type="checkbox" id="endless-button" >
+  <label for="toggle-button">Switch to endless workout</label>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
